@@ -1,10 +1,10 @@
-export interface ICredentials {
+export interface ICredential {
     username: string;
     password: string;
-}
-
-export interface IUser {
+  }
+  export interface IUser {
     uid?: string;
-    name?: string;
-    email?: string;
-}
+    name: string;
+    email: string;
+    password?: string;
+  }
